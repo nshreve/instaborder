@@ -1,6 +1,6 @@
 # instaborder
 
-CLI tool that adds white borders to images and formats them for Instagram's 4:5 aspect ratio (1080×1350). Output is always 2160×2700 (2× for Retina displays).
+CLI tool that adds white borders to images and formats them for Instagram's 4:5 aspect ratio.
 
 ## Install
 
@@ -18,11 +18,11 @@ instaborder [options] <input...>
 
 ### Options
 
-| Flag | Description | Default |
-|------|-------------|---------|
-| `-b, --border <px>` | Border size in pixels | `80` |
-| `-o, --original` | Preserve original aspect ratio (letterbox) | off |
-| `-h, --help` | Show help | |
+| Flag                | Description                                | Default |
+| ------------------- | ------------------------------------------ | ------- |
+| `-b, --border <px>` | Border size in pixels                      | `80`    |
+| `-o, --original`    | Preserve original aspect ratio (letterbox) | off     |
+| `-h, --help`        | Show help                                  |         |
 
 ### Default behavior
 
